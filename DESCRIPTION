@@ -1,11 +1,18 @@
 Package: munchcolors
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Color Palettes Based on Munch Paintings
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: person("Lindsay", "Waldrop", email = "waldrop@chapman.edu", role = 
+    c("aut", "cre"))
+Description: A series of color palettes based on paintings by Edvard Munch, 
+    including "The Scream", "The Murderer", and "Starry Night". All palettes are 
+    based on photographs by the package author of works from the National Museum 
+    of Norway and the Edvard Munch Museum (Oslo, Norway).
+Depends: R (>= 4.0.0)
+License: CC BY-SA 4.0
 Encoding: UTF-8
 LazyData: true
+Suggests: ggplot2
+URL: https://github.com/lindsaywaldrop/munchcolors
+BugReports: https://github.com/lindsaywaldrop/munchcolors/issues
+RoxygenNote: 7.2.0
