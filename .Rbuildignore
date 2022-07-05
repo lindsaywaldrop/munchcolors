@@ -1,2 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+figures/
+sample_plots.R
+README.md
+^README\.Rmd$

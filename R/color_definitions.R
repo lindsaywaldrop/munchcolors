@@ -46,6 +46,8 @@ munch_colors <- list(
 #' @examples
 #' munch_palette("StarryNight1", 100)
 #' munch_palette("NewSnowCool", 4, TRUE)
+#' @importFrom grDevices rgb
+#' @importFrom grDevices colorRampPalette
 munch_palette <- function(choice, n, discrete = FALSE){
   print(choice)
   palette1 <- munch_colors[[choice]]

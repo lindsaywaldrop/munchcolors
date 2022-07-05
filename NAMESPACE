@@ -2,3 +2,5 @@
 
 export(munch_colors)
 export(munch_palette)
+importFrom(grDevices,colorRampPalette)
+importFrom(grDevices,rgb)
