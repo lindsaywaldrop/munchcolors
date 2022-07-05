@@ -56,4 +56,4 @@ munch_palette <- function(choice, n, discrete = FALSE){
   return(output)
 }
 
-#devtools::use_package("ggplot2", "Suggests")
+
