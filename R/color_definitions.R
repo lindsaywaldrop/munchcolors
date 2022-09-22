@@ -49,7 +49,7 @@ munch_colors <- list(
 #' @importFrom grDevices rgb
 #' @importFrom grDevices colorRampPalette
 munch_palette <- function(choice, n, discrete = FALSE){
-  print(choice)
+  #print(choice)
   palette1 <- munch_colors[[choice]]
   if (discrete == TRUE & n > length(palette1)){
     stop("Requested number of colors exceeds length of palette. Make another choice!")
@@ -58,4 +58,56 @@ munch_palette <- function(choice, n, discrete = FALSE){
   return(output)
 }
 
+
+munch_pal<- function(choice, n){
+  function(n){
+    munch_palette(choice, n)
+  }
+}
+
+#' Function that generates colors for a ggplot based on palette choice and number of colors.
+#'
+#' @param choice Name of color palette desired.
+#' @param discrete If the palette is to be discrete (TRUE) or continuous (FALSE).
+#'   Default option is FALSE.
+#' @return A vector of colors in hex format.
+#' @export
+#' @keywords colors ggplot
+#' @examples
+#'
+#' @importFrom grDevices rgb
+#' @importFrom grDevices colorRampPalette
+#' @importFrom ggplot2 discrete_scale
+#' @importFrom ggplot2 scale_color_gradientn
+scale_color_munch <- function(..., choice, discrete = FALSE){
+  if (discrete){
+    discrete_scale("colour", "munch", munch_pal(choice, n),
+                   breaks = waiver(), ...)
+  } else {
+   scale_color_gradientn(colours = munch_palette(choice, 256), ...)
+  }
+}
+
+#' Function that generates fill colors for a ggplot based on palette choice and number of colors.
+#'
+#' @param choice Name of color palette desired.
+#' @param discrete If the palette is to be discrete (TRUE) or continuous (FALSE).
+#'   Default option is FALSE.
+#' @return A vector of colors in hex format.
+#' @export
+#' @keywords colors ggplot
+#' @examples
+#'
+#' @importFrom grDevices rgb
+#' @importFrom grDevices colorRampPalette
+#' @importFrom ggplot2 discrete_scale
+#' @importFrom ggplot2 scale_fill_gradientn
+scale_fill_munch <- function(..., choice, discrete = FALSE){
+  if (discrete){
+    discrete_scale("fill", "munch", munch_pal(choice, n),
+                   breaks = waiver(), ...)
+  } else {
+    scale_fill_gradientn(colours = munch_palette(choice, 256), ...)
+  }
+}
 
