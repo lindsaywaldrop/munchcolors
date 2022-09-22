@@ -67,22 +67,19 @@ munch_pal<- function(choice, n){
 
 #' Function that generates colors for a ggplot based on palette choice and number of colors.
 #'
+#' @param ... Parameters passed to discrete_scale if discrete == TRUE or scale_color_gradientn if FALSE.
 #' @param choice Name of color palette desired.
 #' @param discrete If the palette is to be discrete (TRUE) or continuous (FALSE).
 #'   Default option is FALSE.
-#' @return A vector of colors in hex format.
 #' @export
 #' @keywords colors ggplot
-#' @examples
-#'
 #' @importFrom grDevices rgb
 #' @importFrom grDevices colorRampPalette
 #' @importFrom ggplot2 discrete_scale
 #' @importFrom ggplot2 scale_color_gradientn
 scale_color_munch <- function(..., choice, discrete = FALSE){
   if (discrete){
-    discrete_scale("colour", "munch", munch_pal(choice, n),
-                   breaks = waiver(), ...)
+    discrete_scale("colour", "munch", munch_pal(choice, n), ...)
   } else {
    scale_color_gradientn(colours = munch_palette(choice, 256), ...)
   }
@@ -90,22 +87,19 @@ scale_color_munch <- function(..., choice, discrete = FALSE){
 
 #' Function that generates fill colors for a ggplot based on palette choice and number of colors.
 #'
+#' @param ... Parameters passed to discrete_scale if discrete == TRUE or scale_fill_gradientn if FALSE.
 #' @param choice Name of color palette desired.
 #' @param discrete If the palette is to be discrete (TRUE) or continuous (FALSE).
 #'   Default option is FALSE.
-#' @return A vector of colors in hex format.
 #' @export
 #' @keywords colors ggplot
-#' @examples
-#'
 #' @importFrom grDevices rgb
 #' @importFrom grDevices colorRampPalette
 #' @importFrom ggplot2 discrete_scale
 #' @importFrom ggplot2 scale_fill_gradientn
 scale_fill_munch <- function(..., choice, discrete = FALSE){
   if (discrete){
-    discrete_scale("fill", "munch", munch_pal(choice, n),
-                   breaks = waiver(), ...)
+    discrete_scale("fill", "munch", munch_pal(choice, n), ...)
   } else {
     scale_fill_gradientn(colours = munch_palette(choice, 256), ...)
   }
