@@ -22,29 +22,29 @@ munchcolors provides a series of color palettes based on paintings by Edvard Mun
 
 Color palettes are based on photos taken by the author at Norway's [National Museum](https://www.nasjonalmuseet.no/en/) and the [Munch Museum](https://www.munchmuseet.no/en/), both in Oslo, Norway. 
 
-The palettes are designed to be used with continuous (quantitative) data with single or diverging series or qualitative data. 
+The palettes are designed to be used with continuous (quantitative) data with single or diverging series or qualitative data. Click on each palette name for the painting and the palette together.
 
 Diverging continuous palette options and number of unique colors: 
 
- * SelfPortrait1 (11) 
- * SelfPortrait2 (7)
- * Scream1 (8)
- * Scream2 (6)
- * NewSnow1 (8)
- * NewSnow2 (6)
+ * [SelfPortrait1 (11)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/SelfPortrait1-palette.png) 
+ * [SelfPortrait2 (7)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/SelfPortrait2-palette.png)
+ * [Scream1 (8)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/Scream1-palette.png)
+ * [Scream2 (6)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/Scream2-palette.png)
+ * [NewSnow1 (8)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/NewSnow1-palette.png)
+ * [NewSnow2 (6)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/NewSnow2-palette.png)
  
 Single continuous palette options and number of unique colors:
 
- * NewSnowWarm (4)
- * NewSnowCool (4)
+ * [NewSnowWarm (4)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/NewSnowWarm-palette.png)
+ * [NewSnowCool (4)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/NewSnowCool-palette.png)
  
 Qualitative palette options and number of unique colors: 
 
- * Nietzsche (8)
- * Murderer (8)
- * YellowLog (7)
- * StarryNight1 (8) with single emphasis color (position 1)
- * StarryNight2 (7)
+ * [Nietzsche (8)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/Nietzsche-palette.png)
+ * [Murderer (8)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/Murderer-palette.png)
+ * [YellowLog (7)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/YellowLog-palette.png)
+ * [StarryNight1 (8) with single emphasis color (position 1)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/StarryNight1-palette.png)
+ * [StarryNight2 (7)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/StarryNight2-palette.png)
  
 Most palettes are colorblind friendly and are able to be rendered into gray scale without losing readability. However, consider limiting the number of factors in qualitative palettes if gray scale is critically important.
 
