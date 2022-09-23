@@ -16,43 +16,8 @@ Color palettes are based on photos taken by the author at Norway’s
 Museum](https://www.munchmuseet.no/en/), both in Oslo, Norway.
 
 The palettes are designed to be used with continuous (quantitative) data
-with single or diverging series or qualitative data. Click on each
-palette name for the painting and the palette together.
-
-Diverging continuous palette options and number of unique colors:
-
--   [SelfPortrait1
-    (11)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/SelfPortrait1-palette.png)
--   [SelfPortrait2
-    (7)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/SelfPortrait2-palette.png)
--   [Scream1
-    (8)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/Scream1-palette.png)
--   [Scream2
-    (6)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/Scream2-palette.png)
--   [NewSnow1
-    (8)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/NewSnow1-palette.png)
--   [NewSnow2
-    (6)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/NewSnow2-palette.png)
-
-Single continuous palette options and number of unique colors:
-
--   [NewSnowWarm
-    (4)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/NewSnowWarm-palette.png)
--   [NewSnowCool
-    (4)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/NewSnowCool-palette.png)
-
-Qualitative palette options and number of unique colors:
-
--   [Nietzsche
-    (8)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/Nietzsche-palette.png)
--   [Murderer
-    (8)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/Murderer-palette.png)
--   [YellowLog
-    (7)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/YellowLog-palette.png)
--   [StarryNight1 (8) with single emphasis color (position
-    1)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/StarryNight1-palette.png)
--   [StarryNight2
-    (7)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/StarryNight2-palette.png)
+with single or diverging series or qualitative data. See below for a
+list of palette options.
 
 Most palettes are colorblind friendly and are able to be rendered into
 gray scale without losing readability. However, consider limiting the
@@ -131,3 +96,102 @@ ggplot(mtcars, aes(hp, mpg, color=factor(cyl))) +
 ```
 
 <img src="man/figures/README-example5-1.png" width="100%" />
+
+## List of Palette Options
+
+Diverging continuous palette options and number of unique colors:
+
+-   [SelfPortrait1
+    (11)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/SelfPortrait1-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/SelfPortrait1-palette.png"
+style="width:50.0%" />
+
+-   [SelfPortrait2
+    (7)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/SelfPortrait2-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/SelfPortrait2-palette.png"
+style="width:50.0%" />
+
+-   [Scream1
+    (8)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/Scream1-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/Scream1-palette.png"
+style="width:50.0%" />
+
+-   [Scream2
+    (6)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/Scream2-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/Scream2-palette.png"
+style="width:50.0%" />
+
+-   [NewSnow1
+    (8)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/NewSnow1-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/NewSnow1-palette.png"
+style="width:50.0%" />
+
+-   [NewSnow2
+    (6)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/NewSnow2-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/NewSnow2-palette.png"
+style="width:50.0%" />
+
+Single continuous palette options and number of unique colors:
+
+-   [NewSnowWarm
+    (4)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/NewSnowWarm-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/NewSnowWarm-palette.png"
+style="width:50.0%" />
+
+-   [NewSnowCool
+    (4)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/NewSnowCool-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/NewSnowCool-palette.png"
+style="width:50.0%" />
+
+Qualitative palette options and number of unique colors:
+
+-   [Nietzsche
+    (8)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/Nietzsche-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/Nietzsche-palette.png"
+style="width:50.0%" />
+
+-   [Murderer
+    (8)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/Murderer-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/Murderer-palette.png"
+style="width:50.0%" />
+
+-   [YellowLog
+    (7)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/YellowLog-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/YellowLog-palette.png"
+style="width:50.0%" />
+
+-   [StarryNight1 (8) with single emphasis color (position
+    1)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/StarryNight1-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/StarryNight1-palette.png"
+style="width:50.0%" />
+
+-   [StarryNight2
+    (7)](https://github.com/lindsaywaldrop/munchcolors/tree/main/man/figures/StarryNight2-palette.png)
+
+<img
+src="https://raw.githubusercontent.com/lindsaywaldrop/munchcolors/main/man/figures/StarryNight2-palette.png"
+style="width:50.0%" />
